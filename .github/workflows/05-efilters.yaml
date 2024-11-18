@@ -2,13 +2,13 @@ name: 05 - Event Filters
 on: 
   push:
     branches:
-      -features
+      - features
 
 jobs:
   echo:
     runs-on: ubuntu-latest
     steps:
-      - name: Mensaje
+      - name: Mensaje2
         run: echo 'Running whenever branch is features'
       
         
